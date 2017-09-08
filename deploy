@@ -1,5 +1,6 @@
+-#!/bin/sh
 cd /projects/blog
- git pull       
- npm install --production       
- pm2 restart all
+sudo git pull       
+sudo npm install --production       
+sudo pm2 restart all
  exit       
